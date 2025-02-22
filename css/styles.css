@@ -1,4 +1,5 @@
 body {
+    /* width: 100%; */
     margin: 0;
     padding: 0;
     background-color: wheat;
@@ -56,7 +57,7 @@ nav a:hover {
     /* position: relative; */
     width: 100%;
     height: 90vh;
-    background: url('./images/zyro-O-Nemx50zDE-unsplash.jpg') center/cover no-repeat;
+    background: url('/images/zyro-O-Nemx50zDE-unsplash.jpg') center/cover no-repeat;
 }
 .dark-overlay {
     position: absolute;
@@ -66,7 +67,7 @@ nav a:hover {
 }
 .img1{
     position: absolute;
-    top: 250px;
+    top: 122%;
     right: 60%;
     width: 300px;
     height: 300px;
@@ -130,18 +131,30 @@ nav a:hover {
         height: 30px;
         padding: 20px 0;
     }
+    .nav-links {
+        display: none;
+    }
+    .logo {
+        padding-right: 300px;
+    }
+    .logotxt {
+        position: absolute;
+        padding-right: 50px;
+    }
     .img1{
         position: absolute;
-        top: 100px;
-        right: 55%;
-        width: 300px;
-        height: 300px;
+        padding-top:28%;
+        right: 23%;
+        width: 60%;
+        /* height: 300px; */
     }
     .alltxt {
         justify-content: left;
         position: absolute;
         z-index: -1;
-        left: 50%;
+        left: 11%;
+        width: 80%;
+        padding-top: 150%;
     }
     nav a {
         font-size: 4vw;
